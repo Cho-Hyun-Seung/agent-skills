@@ -1,26 +1,28 @@
 # Grilling
 
-An evidence-based, dependency-aware decision review skill for AI coding agents.
+AI 코딩 에이전트가 근거와 의존 관계를 바탕으로 의사결정을 검토하도록 돕는 스킬입니다.
 
-Grilling helps stress-test plans, technical designs, and architecture decisions through structured questioning, adversarial reviews, and explicit confirmation.
+Grilling은 체계적인 질문, 반대 관점에서의 검토, 명시적인 확인을 통해 계획, 기술 설계, 아키텍처 결정이 다양한 상황에서도 타당한지 검증합니다.
 
-## Features
+## 주요 기능
 
-- Dependency-aware decision trees
-- Round-based questioning
-- Evidence-first technical investigation
-- Adversarial architecture reviews
-- Risk and trade-off analysis
-- Architecture Decision Records (ADR)
-- Quick, Standard, and Deep review modes
-- Explicit approval before implementation
+- 의존 관계를 고려한 의사결정 트리
+- 라운드별 질의응답
+- 근거를 우선하는 기술 조사
+- 반대 관점에서의 아키텍처 검토
+- 위험 및 상충 관계 분석
+- 아키텍처 의사결정 기록(ADR)
+- 빠른 검토(Quick), 표준 검토(Standard), 심층 검토(Deep) 모드
+- 구현 전 명시적인 승인
 
-## Acknowledgements
+## 출처 및 감사의 말
 
-This skill is based on the original **grilling** skill instructions, which introduced relentless questioning, dependency-aware design trees, and round-based decision interviews.
+이 스킬은 Matt Pocock의 [mattpocock/skills에 있는 원본 **grilling** 스킬](https://github.com/mattpocock/skills/blob/4ae2317ddb22b046e26455e4f9c9b3aaaf62212d/skills/productivity/grilling/SKILL.md)을 바탕으로 합니다. 원본은 끈질긴 질문, 의존 관계를 고려한 설계 트리, 라운드별 의사결정 인터뷰를 도입했습니다.
 
-The original concept has been adapted and extended with evidence-based investigation, technical architecture validation, security and reliability reviews, risk prioritization, and decision documentation.
+원본 개념을 바탕으로 근거 기반 조사, 기술 아키텍처 검증, 보안 및 신뢰성 검토, 위험 우선순위 지정, 의사결정 문서화 기능을 추가하고 확장했습니다.
 
-## Usage
+원본은 MIT 라이선스로 배포되며, 저작권 고지와 전문은 [LICENSE](LICENSE)에 보존했습니다. 자체 작성 및 수정 부분도 MIT 라이선스를 따릅니다. 이 폴더만 재배포할 때도 `LICENSE`를 함께 포함하세요. 검토 기준과 출처 확인의 한계는 [최상위 README](../../README.md#원본-스킬-출처)에 기록했습니다.
 
-See [SKILL.md](SKILL.md) for the complete instructions.
+## 사용 방법
+
+전체 지침은 [SKILL.md](SKILL.md)를 참고하세요.
