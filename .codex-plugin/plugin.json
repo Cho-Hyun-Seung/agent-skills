@@ -1,0 +1,9 @@
+{
+  "name": "agent-skills",
+  "version": "1.0.0",
+  "description": "Reusable skills for evidence-based plan and architecture reviews.",
+  "author": { "name": "Cho-Hyeon-Seung" },
+  "repository": "https://github.com/Cho-Hyun-Seung/agent-skills",
+  "license": "MIT",
+  "skills": "./skills/"
+}

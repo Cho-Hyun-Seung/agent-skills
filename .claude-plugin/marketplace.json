@@ -1,0 +1,12 @@
+{
+  "name": "cho-hyun-seung",
+  "description": "Reusable AI agent skills by Cho-Hyeon-Seung.",
+  "owner": { "name": "Cho-Hyeon-Seung" },
+  "plugins": [
+    {
+      "name": "agent-skills",
+      "source": "./",
+      "description": "Reusable skills for evidence-based plan and architecture reviews."
+    }
+  ]
+}
