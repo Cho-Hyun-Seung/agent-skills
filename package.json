@@ -1,0 +1,26 @@
+{
+  "name": "agent-skills",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Reusable skills for evidence-based plan and architecture reviews.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Cho-Hyun-Seung/agent-skills.git"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "changeset": "changeset",
+    "version": "changeset version && node scripts/sync-plugin-version.mjs && npm install --package-lock-only --ignore-scripts && npm run check",
+    "check-plugin-version": "node scripts/sync-plugin-version.mjs --check",
+    "test": "node --test scripts/sync-plugin-version.test.mjs",
+    "check": "npm run check-plugin-version && npm test",
+    "release": "changeset tag"
+  },
+  "devDependencies": {
+    "@changesets/changelog-github": "1.0.1",
+    "@changesets/cli": "3.0.3"
+  }
+}
