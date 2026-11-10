@@ -1,6 +1,6 @@
 {
   "name": "agent-skills",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": true,
   "description": "Reusable skills for evidence-based plan and architecture reviews.",
   "repository": {
